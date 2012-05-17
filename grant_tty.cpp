@@ -90,7 +90,6 @@ int grant_tty(Grant *g)
                 g->constraints ^= GrantIsolate;
                 break;
         }
-        putc(c, tty);
         fflush(tty);
     }
 }
