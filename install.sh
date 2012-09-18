@@ -1,1 +1,1 @@
-witch install -o root -m 4755 nuwitch /usr/bin/witch
+witch install -o root -m 4755 nuwitch /bin/witch
